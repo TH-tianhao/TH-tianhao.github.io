@@ -1,0 +1,14 @@
+#top{
+	display: none;
+}
+#header{
+	padding-top: 35px;
+}
+.form_1{
+	display: block;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+.content_top_left{
+	display: none;
+}

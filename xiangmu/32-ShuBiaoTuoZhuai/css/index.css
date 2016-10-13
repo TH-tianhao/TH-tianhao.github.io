@@ -1,0 +1,20 @@
+#div1{
+	width:100px;
+	height:100px;
+	position:absolute;
+	top:0;
+	left:0;
+	background:red;
+}
+#div2{
+	width:100px;
+	height:100px;
+	position:absolute;
+	top:0;
+	left:0;
+	border:2px solid transparent;
+	z-index:10;
+}
+input{
+	margin-top:100px;
+}

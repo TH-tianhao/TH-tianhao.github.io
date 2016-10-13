@@ -1,0 +1,15 @@
+div{
+	width: 500px;
+	height: 500px;
+	background: #FFFFFF;
+	border: 1px solid #CCCCCC;
+}
+p{
+	display: none;
+}
+.show{
+	display: block;
+}
+.active{
+	background: cyan;
+}

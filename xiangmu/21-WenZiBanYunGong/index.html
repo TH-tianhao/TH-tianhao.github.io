@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/index.css" />
+		<script src="js/index.js"></script> 
+	</head>
+	<body>
+		<section>
+			<div id="text1">
+				<p>拍碎双玉斗，慷慨一何多。满腔都是血泪，无处着悲歌。三百年来王气，满目山河依旧，人事竟如何？百户尚牛酒，四塞已干戈。千金剑，万言策，两蹉跎。醉中呵壁自语，醒后一滂沱。不恨年华去也，只恐少年心事，强半为销磨。愿替众生病，稽首礼维摩。</p>
+				<span></span>
+			</div>
+			<div id="on">
+				<a href="javascrpit:;" id="onclickright">→</a>
+				<a href="javascrpit:;" id="onclickleft">←</a>
+				<ul id="uls">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+			<div id="text2">
+				<p></p>
+				<span></span>
+			</div>
+		</section>
+		<script>
+			function $(id){
+				return document.getElementById(id);
+			}
+			function $1(tname){
+				return document.getElementsByTagName(tname);
+			}
+			var ps = $1('p');
+			var spans = $1('span');
+			var text1 = $('text1');
+			var text2 = $('text2');
+			var onclickright = $('onclickright');
+			var onclickleft = $('onclickleft');
+			var lis = $1('li');
+			tianhao(text1,text2,onclickright,onclickleft,ps,spans,lis);
+		</script>
+	</body>
+</html>

@@ -1,0 +1,45 @@
+ul{
+	width: 100%;
+	margin: 0 auto;
+	
+}
+li{
+	list-style: none;
+	height: 30px;
+}
+li i{
+	display: block;
+	width: 30px;
+	height: 30px;
+	font:20px/30px arial;
+	background: #CCCCCC;
+	text-align: center;
+	margin: 0 10px;
+	float: left;
+	cursor: pointer;
+}
+li span{
+	display: block;
+	height: 30px;
+	font:20px/30px arial;
+	float: left;
+	margin: 0 5px;
+}
+li strong{
+	display: block;
+	height: 30px;
+	font: 20px/30px arial;
+	float: left;
+	margin: 0 10px;
+}
+li p{
+	margin: 0;
+	display:block;
+	float: left;
+	height: 30px;
+	font:20px/30px arial;
+}
+div{
+	margin-top: 20px;
+	margin-left: 50px;
+}

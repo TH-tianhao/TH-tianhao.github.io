@@ -1,0 +1,13 @@
+div{
+	width:100px;
+	height:100px;
+	position:absolute;
+}
+#div2{
+	background:red;
+}
+#div1{
+	background:blue;
+	top:200px;
+	left:200px;
+}

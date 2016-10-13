@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/index.css" />
+	<script src="js/index.js"></script>
+</head>
+<body>
+	<form action="#">
+		<div class="textvalue">
+			姓名:<input type="text" name="text">
+			年龄:<input type="text" name="text1">
+			性别:<input type="text" name="text2">
+			<span>提交</span>
+		</div>
+		<div class="sort">
+			排序:
+			<select name="" id="s1">
+				<option value="年龄">年龄</option>
+				<option value="编号">编号</option>	
+			</select>
+			<select name="" id="s2">
+				<option value="升序">升序</option>
+				<option value="降序">降序</option>	
+			</select>	
+			<button>提交</button>
+		</div>
+		<div class="search">
+			搜索：<input type="text" id="sou">
+			<input type="button" value="提交" id="sou1">
+			<input type="button" value="反选" id="fx"/>
+			<input type="button" value="批量删除" id="pl">
+		</div>
+		<table width="100%" border="1" id="table">
+			<thead>
+					<tr>
+						<th><input type="checkbox" name="ss">全选</th>
+						<th>编号</th>
+						<th>姓名</th>
+						<th>年龄</th>
+						<th>性别</th>
+						<th>操作</th>
+					</tr>
+			</thead>
+			<tbody width='100%' border="1">
+				
+			</tbody>
+		</table>	
+	</form>
+</body>
+</html>

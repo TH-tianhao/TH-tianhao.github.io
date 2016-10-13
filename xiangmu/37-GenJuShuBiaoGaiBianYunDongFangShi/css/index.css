@@ -1,0 +1,26 @@
+div{
+	width:500px;
+	height:500px;
+	border:1px solid #ccc;
+	position:relative;
+	margin:100px auto;
+	overflow: hidden;
+}
+p{
+	margin:0;
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+}
+img{
+	width:500px;
+	height:500px;
+	vertical-align:top;
+}
+.previous{
+	z-index:10;
+}
+.next{
+	z-index:5;
+}

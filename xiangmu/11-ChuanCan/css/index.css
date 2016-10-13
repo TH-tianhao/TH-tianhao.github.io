@@ -1,0 +1,60 @@
+dl{
+	width: 800px;
+	height: 800px;
+	margin: 0 auto;
+}
+dt{
+	height: 50px;
+	background: yellowgreen;
+	line-height: 50px;
+	font-size: 20px;
+	text-indent: 10px;
+}
+dd{
+	margin: 0;
+	border: 1px solid #CCCCCC;
+	height: 40px;
+}
+p{
+	margin: 0;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	
+}
+input{
+	border: none;
+	outline:none;
+	height: 30px;
+	line-height: 30px;
+	font-size: 20px;
+}
+b{
+	display: block;
+	width:40px;
+	height: 40px;
+	float: left;
+}
+i{
+	display: block;
+	width: 18px;
+	height: 15px;
+	transform: skew(-10deg,-50deg);
+	border-radius: 50%;
+	background: #ccc;
+	float: left;
+	position: relative;
+	left: 24px;
+	top: 15px;
+}
+span{
+	float: left;
+	height: 30px;
+}
+.p1 {
+	display:block;
+}
+.p2{
+	display: none;
+}

@@ -1,0 +1,28 @@
+#div1{
+	width:20px;
+	height:300px;
+	border:1px solid #ccc;
+	position:relative;
+	float:left;
+}
+#div1 span{
+	display:block;
+	width:20px;
+	height:20px;
+	background:red;
+	position:absolute;
+} 
+#box{
+	width:200px;
+	line-height:26px;
+	margin-left:1px;
+	position:absolute;
+}
+#box1{
+	overflow:hidden;
+	position:relative;
+	width:200px;
+	height:300px;
+	float:left;
+	border:1px solid #ccc;
+}

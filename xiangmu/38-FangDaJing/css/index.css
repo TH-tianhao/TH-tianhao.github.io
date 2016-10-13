@@ -1,0 +1,30 @@
+body{
+	margin:0;
+}
+#left{
+	width:400px;
+	height:400px;
+	background:url('../img/1.jpg') no-repeat;
+	background-size:100%;
+	float:left;
+	position:relative;
+	margin-right:100px;
+}
+#move{
+	width:100px;
+	height:100px;
+	background:red;
+	opacity: .3;
+	position:absolute;
+}
+#right{
+	width:500px;
+	height:500px;
+	display:none;
+	float:left;
+	overflow:hidden;
+	position:relative;
+}
+#right img{
+	position:absolute;
+}

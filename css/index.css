@@ -30,7 +30,7 @@ body{
     -webkit-transition:-webkit-transform 1s cubic-bezier(0.86,0,0.03,1);
 }
 
-
+/*整屏切换*/
 .put_section_0{ transform:translateY(0);-webkit-transform:translateY(0);}
 .put_section_1{ transform:translateY(-600px);-webkit-transform:translateY(-600px);}
 .put_section_2{ transform:translateY(-1200px);-webkit-transform:translateY(-1200px);}
@@ -362,7 +362,7 @@ body{
     transform:rotate(0deg);
 }
 .section3_cont li:hover .section3_text{
-    height: 120px;
+    height: 140px;
     padding: 10px;
 }
 .section3_cont .section3_text{

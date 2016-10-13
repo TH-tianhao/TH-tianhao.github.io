@@ -7,10 +7,17 @@
 		<link rel="stylesheet" href="css/style.css" />
 		<link rel="stylesheet" href="css/tool.css" />
 		<script>
-			var iScale = 1 / window.devicePixelRatio;
-			document.write('<meta name="viewport" content="width=device-width,initial-scale='+iScale+',minimum-scale='+iScale+',maximum-scale='+iScale+',user-scalable=no"/>');
-			var iWidth = document.documentElement.clientWidth;
-			document.getElementsByTagName('html')[0].style.fontSize = iWidth / 18 + 'px';
+			rems();
+			window.onresize =function(){
+				//窗口发生变化就刷新页面
+				window.location.href = window.location.href;
+			}
+			function rems(){
+				var iScale = 1 / window.devicePixelRatio;
+				document.write('<meta name="viewport" content="width=device-width,initial-scale='+iScale+',minimum-scale='+iScale+',maximum-scale='+iScale+',user-scalable=no"/>');
+				var iWidth = document.documentElement.clientWidth;
+				document.getElementsByTagName('html')[0].style.fontSize = iWidth / 18 + 'px';
+			}
 		</script>
 	</head>
 	<body>

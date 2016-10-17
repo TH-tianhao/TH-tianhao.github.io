@@ -11,6 +11,22 @@ window.onload = function(){
 	var imgs = ['0.jpg','1.jpg','2.jpg','3.jpg','4.jpg'];
 	var num  = 0;
 	var arrs = ''; 
+	var time;
+	tim();
+	function tim(){
+		time=setInterval(function(){
+			num++;
+			num%=imgs.length;
+			listyle(num);
+			img1.src = 'img/'+imgs[num];
+		},1000)
+	}
+	div1.onmouseover = function(){
+		clearInterval(time);
+	}
+	div1.onmouseout = function(){
+		tim();
+	}
 	//点击下一个
 	a2.onclick = function(){
 		num++;

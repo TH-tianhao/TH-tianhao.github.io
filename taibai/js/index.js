@@ -163,7 +163,7 @@ $(function(){
 		fns($('.content4>div:nth-child(1)'),'scale(0.2)','0.2')
 		fns($('.content4>div:nth-child(2)>div:nth-child(1)'),'translateX(-500px)','0.3')
 		fns($('.content4>div:nth-child(2)>div:nth-child(2)'),'translateX(500px)','0.3')
-		fns($('.content4>div:nth-child(2)>div:nth-child(3)'),'translateX(300px)','0.3')
+		fns($('.content4>div:nth-child(2)>div:nth-child(3)'),'translateY(300px)','0.3')
 	}
 	listyle(0)
 	function listyle(num){
@@ -247,13 +247,16 @@ $(function(){
 		}
 		onOf = !onOf;
 	})
+	// 清楚扇形布局
 	$(document).on('click',clearbottom_list)
+	// 改变开关
 	function clearbottom_list(){
 		clearbottom();
 		if(!onOf){
 			onOf = !onOf;
 		}
 	}
+	// 扇形布局
 	function clearbottom(){
 		$('.bottom_list>div').css('transform','rotate(0deg)');
 		for(var i=0;i<lis.length;i++){
@@ -261,6 +264,7 @@ $(function(){
 				setStyleto(i,(lis.length-i),'scale(1) rotate(0deg)',0,0);
 		}
 	}
+
 	function setStyleto(index,s,dega,left,top){
 		lis[index].style.transition = '0.5s '+s*100+'ms';
 		lis[index].style.transform = dega;
